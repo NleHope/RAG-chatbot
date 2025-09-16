@@ -21,17 +21,18 @@ bash run.sh
 Add your own .txt files to the data/ folder for better context in retrieval.
 
 ## Project Structure
-rag_system/
-│
-├── data/ # raw documents
-├── processed/ # cleaned documents
-├── embeddings/ # FAISS index + doc IDs
-├── scripts/
-│ ├── preprocess.py # text preprocessing
-│ ├── embed.py # build embeddings
-│ ├── query.py # RAG query pipeline
-│ └── run.sh # orchestration script
-└── requirements.txt
+      ```markdown
+      rag_system/
+      │
+      ├── data/ # raw documents
+      ├── processed/ # cleaned documents
+      ├── embeddings/ # FAISS index + doc IDs
+      ├── scripts/
+      │ ├── preprocess.py # text preprocessing
+      │ ├── embed.py # build embeddings
+      │ ├── query.py # RAG query pipeline
+      │ └── run.sh # orchestration script
+      └── requirements.txt
 
 
 ## Data Pipeline
