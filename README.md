@@ -21,7 +21,7 @@ bash run.sh
 Add your own .txt files to the data/ folder for better context in retrieval.
 
 ## Project Structure
-      ```markdown
+      
       rag_system/
       │
       ├── data/ # raw documents
@@ -37,25 +37,25 @@ Add your own .txt files to the data/ folder for better context in retrieval.
 
 ## Data Pipeline
 
-data/ (raw input)
-   │
-   ▼
-[Preprocess: clean text]
-   │
-   ▼
-processed/ (normalized text)
-   │
-   ▼
-[Embed: generate embeddings]
-   │
-   ▼
-embeddings/ (FAISS index + doc IDs)
-   │
-   ▼
-[Query: retrieve + generate answer]
-   │
-   ▼
-User output (answer with context)
+      data/ (raw input)
+         │
+         ▼
+      [Preprocess: clean text]
+         │
+         ▼
+      processed/ (normalized text)
+         │
+         ▼
+      [Embed: generate embeddings]
+         │
+         ▼
+      embeddings/ (FAISS index + doc IDs)
+         │
+         ▼
+      [Query: retrieve + generate answer]
+         │
+         ▼
+      User output (answer with context)
 
 Features
 
