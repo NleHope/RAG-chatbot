@@ -20,7 +20,7 @@ bash run.sh
 
 Add your own .txt files to the data/ folder for better context in retrieval.
 
-##Project Structure
+## Project Structure
 rag_system/
 │
 ├── data/                # raw documents
