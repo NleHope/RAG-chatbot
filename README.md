@@ -8,14 +8,20 @@ A lightweight Retrieval-Augmented Generation (RAG) system that runs locally with
 
 ## How to Run
 
+1. Clone the repo
+   ```bash
+   git clone https://github.com/NleHope/RAG-chatbot.git
+
 1. Open your terminal and navigate to the project root:
    ```bash
-   cd rag_system
+   cd RAG-chatbot
+3. Open Docker Desktop and run this command in terminal
+   ```bash
+   docker build -t <your-designated-name> .
+4. Run the container and enjoy
+   ```bash
+   docker run <your-designated-name>
 
-
-Run the pipeline:
-
-bash run.sh
 
 
 Add your own .txt files to the data/ folder for better context in retrieval.
