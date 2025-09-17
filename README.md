@@ -69,6 +69,8 @@ Simple terminal-based chat with a local language model
 
 Data stored as embeddings in a FAISS vector database
 
+Automatic run with cronjob through run.sh for schedule run
+
 Easy to extend with more document types or larger models
 
 
