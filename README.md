@@ -4,6 +4,9 @@
 
 A lightweight Retrieval-Augmented Generation (RAG) system that runs locally with FAISS and a small language model.
 
+Ver: 1.0
+To do: add chunking strategy and model evaluation
+
 ---
 
 ## How to Run
@@ -15,7 +18,7 @@ A lightweight Retrieval-Augmented Generation (RAG) system that runs locally with
 1. Open your terminal and navigate to the project root:
    ```bash
    cd RAG-chatbot
-3. Open Docker Desktop and run this command in terminal
+3. Open Docker Desktop and run this command in the terminal
    ```bash
    docker build -t <your-designated-name> .
 4. Run the container and enjoy
@@ -69,7 +72,7 @@ Simple terminal-based chat with a local language model
 
 Data stored as embeddings in a FAISS vector database
 
-Automatic run with cronjob through run.sh for schedule run
+Automatic run with cronjob through run.sh for scheduled run
 
 Easy to extend with more document types or larger models
 
