@@ -4,7 +4,8 @@
 
 A lightweight Retrieval-Augmented Generation (RAG) system that runs locally with FAISS and a small language model.
 
-Ver: 1.0
+Ver: 1.0.
+
 To do: add chunking strategy and model evaluation
 
 ---
